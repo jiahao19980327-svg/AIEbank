@@ -1,0 +1,16 @@
+.message-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.loading-message {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.loading-message .avatar {
+  flex-shrink: 0;
+}
+
